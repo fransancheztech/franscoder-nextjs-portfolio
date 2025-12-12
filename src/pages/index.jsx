@@ -9,6 +9,8 @@ import Address from '../components/Address'
 import Social from '../components/Social'
 import Contact from '../components/Contact'
 import SwitchDark from '../components/switch/SwitchDark'
+import SwitchLng from '../components/switch/SwitchLng'
+import useLanguage from '../hooks/useLanguage'
 
 const menuItem = [
   { icon: 'fa-home', menuName: 'Inicio' },
@@ -18,6 +20,7 @@ const menuItem = [
 ]
 
 const HomeDark = () => {
+  const {t} = useLanguage();
   useEffect(() => {
     document.querySelector('body').classList.remove('rtl')
   }, [])
@@ -26,6 +29,7 @@ const HomeDark = () => {
       <SEO pageTitle={'Portfolio de Fran Sánchez'} />
 
       <div className='yellow'>
+        <SwitchLng/>
         <SwitchDark />
         {/* End Switcher */}
         <Tabs>

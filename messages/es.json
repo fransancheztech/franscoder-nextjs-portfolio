@@ -1,0 +1,15 @@
+{
+  "Index": {
+    "description": "Esto es la página de inicio.",
+    "title": "Inicio"
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "Cambia a {locale, select, es {Español} en {English} otro {Unknown}}"
+  },
+  "NotFound": {
+    "title": "No encontrado (404)"
+  },
+  "PageLayout": {
+    "pageTitle": "next-intl"
+  }
+}
