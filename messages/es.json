@@ -1,7 +1,10 @@
 {
-  "Index": {
-    "description": "Esto es la página de inicio.",
-    "title": "Inicio"
+  "Hero": {
+    "greeting": "Hola, soy Fran Sánchez",
+    "position": "Desarrollador React",
+    "paragraph1": "Diseño y desarrollo aplicaciones web y móviles limpias y escalables, con un fuerte enfoque en la experiencia de usuario y la mantenibilidad del código.",
+    "paragraph2": "Me apasiona convertir problemas reales en soluciones prácticas y bien diseñadas.",
+    "paragraph3": "Más sobre mí"
   },
   "LocaleSwitcher": {
     "switchLocale": "Cambia a {locale, select, es {Español} en {English} otro {Unknown}}"

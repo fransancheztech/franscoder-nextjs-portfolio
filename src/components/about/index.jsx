@@ -40,8 +40,8 @@ const index = () => {
               <div className='col-12 mt-1'>
                 <a
                   className='button'
-                  href='/assets/francisco_sanchez_dev_2024.pdf'
-                  download='francisco_sanchez_dev_2024'
+                  href='/assets/FranciscoSanchez-WebDeveloper-2025.pdf'
+                  download='FranciscoSanchez-WebDeveloper-2025'
                 >
                   <span className='button-text'>Descargar CV</span>
                   <span className='button-icon fa fa-download'></span>

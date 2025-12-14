@@ -660,7 +660,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 }
 
 .home .home-details > div {
-  max-width: 550px;
+  max-width: 560px;
   margin: 0 auto;
 }
 
@@ -670,14 +670,13 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   font-weight: 700;
   margin: 18px 0 10px;
   position: relative;
-  padding-left: 70px;
   &:hover {
     cursor: default;
   }
 }
 
 .home .home-details h1:before {
-  content: '';
+  content: none;
   position: absolute;
   left: 0;
   top: 29px;

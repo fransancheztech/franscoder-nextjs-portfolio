@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import useLanguage from '../../hooks/useLanguage';
 import { IoIosArrowDown } from 'react-icons/io';
 import { IoIosArrowUp } from 'react-icons/io';
@@ -7,12 +7,28 @@ const SwitchLng = () => {
     const { router, locale, t } = useLanguage();
     const [isLanguageOpen, setIsLanguageOpen] = useState(false);
 
+    const switcherRef = useRef(null);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (isLanguageOpen && switcherRef.current && !switcherRef.current.contains(event.target)) {
+                setIsLanguageOpen(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [isLanguageOpen]);
+
     const changeLanguage = (newLocale) => {
         router.push('/', '/', { locale: newLocale });
     };
 
     return (
-        <div className='language-switcher-label relative'>
+        <div ref={switcherRef} className='language-switcher-label relative'>
             <div
                 onClick={() => setIsLanguageOpen((prev) => !prev)}
                 className='w-full flex justify-center items-center h-full text-lg select-none gap-1 lang-switcher-button'>
@@ -27,7 +43,7 @@ const SwitchLng = () => {
                             changeLanguage('en');
                             setIsLanguageOpen(false);
                         }}
-                        className='px-3 py-2 cursor-pointer text-lg'>
+                        className='px-3 py-2 cursor-pointer text-lg lang-switcher-dropdown-btn1'>
                         EN
                     </div>
                     <div
@@ -35,7 +51,7 @@ const SwitchLng = () => {
                             changeLanguage('es');
                             setIsLanguageOpen(false);
                         }}
-                        className='px-3 py-2 cursor-pointer text-lg'>
+                        className='px-3 py-2 cursor-pointer text-lg lang-switcher-dropdown-btn2'>
                         ES
                     </div>
                 </div>

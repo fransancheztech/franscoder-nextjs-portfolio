@@ -1,7 +1,10 @@
 {
-  "Index": {
-    "description": "This is the home page.",
-    "title": "Home"
+  "Hero": {
+    "greeting": "Hi, I'm Fran Sánchez",
+    "position": "React Developer",
+    "paragraph1": "I design and build clean, scalable web and mobile applications with a strong focus on user experience and maintainable code.",
+    "paragraph2": "I’m passionate about turning real-world problems into practical, well-engineered solutions.",
+    "paragraph3": "Learn more about me"
   },
   "LocaleSwitcher": {
     "switchLocale": "Switch to {locale, select, de {German} en {English} other {Unknown}}"

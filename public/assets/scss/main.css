@@ -1729,26 +1729,66 @@ footer {
   transition: 0.3s;
   transform: translateY(-30%);
 }
-.language-switcher-label option {
-  color: black;
+
+.lang-switcher-button {
+  transition: 0.3s;
 }
-.language-switcher-label .lang-switcher-button {
-  color: white;
+.lang-switcher-button:hover {
+  background-color: #656565;
+  border-radius: 10%;
 }
-.language-switcher-label .lang-switcher-dropdown {
+
+.lang-switcher-dropdown {
   background-color: #4b4b4b;
-  color: white;
+  border-radius: 10%;
+}
+
+.lang-switcher-dropdown-btn1 {
+  background-color: #4b4b4b;
+  transition: 0.3s;
+  border-radius: 10% 10% 0 0;
+}
+.lang-switcher-dropdown-btn1:hover {
+  background-color: #656565;
+}
+
+.lang-switcher-dropdown-btn2 {
+  background-color: #4b4b4b;
+  transition: 0.3s;
+  border-radius: 0 0 10% 10%;
+}
+.lang-switcher-dropdown-btn2:hover {
+  background-color: #656565;
 }
 
 body.light .language-switcher-label {
-  background-color: #e0e0e0;
+  background-color: #eee;
 }
 body.light .language-switcher-label .lang-switcher-button {
-  color: black;
+  transition: 0.3s;
+}
+body.light .language-switcher-label .lang-switcher-button:hover {
+  background-color: #c6c6c6;
+  border-radius: 10%;
 }
 body.light .language-switcher-label .lang-switcher-dropdown {
   background-color: #e0e0e0;
-  color: black;
+  color: #666;
+}
+body.light .language-switcher-label .lang-switcher-dropdown-btn1 {
+  background-color: #e0e0e0;
+  color: #666;
+}
+body.light .language-switcher-label .lang-switcher-dropdown-btn1:hover {
+  background-color: #c6c6c6;
+}
+body.light .language-switcher-label .lang-switcher-dropdown-btn2 {
+  background-color: #e0e0e0;
+  color: #666;
+  transition: 0.3s;
+}
+body.light .language-switcher-label .lang-switcher-dropdown-btn2:hover {
+  background-color: #c6c6c6;
 }
 
 /*------------------------------------------------------------------
@@ -2397,7 +2437,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 }
 
 .home .home-details > div {
-  max-width: 550px;
+  max-width: 560px;
   margin: 0 auto;
 }
 
@@ -2407,14 +2447,13 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   font-weight: 700;
   margin: 18px 0 10px;
   position: relative;
-  padding-left: 70px;
 }
 .home .home-details h1:hover {
   cursor: default;
 }
 
 .home .home-details h1:before {
-  content: "";
+  content: none;
   position: absolute;
   left: 0;
   top: 29px;
