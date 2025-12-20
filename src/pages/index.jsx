@@ -10,18 +10,23 @@ import Social from '../components/Social'
 import Contact from '../components/Contact'
 import SwitchDark from '../components/switch/SwitchDark'
 import SwitchLng from '../components/switch/SwitchLng'
-
-const menuItem = [
-  { icon: 'fa-home', menuName: 'Inicio' },
-  { icon: 'fa-user', menuName: 'Conóceme' },
-  { icon: 'fa-briefcase', menuName: 'Portfolio' },
-  { icon: 'fa-envelope-open', menuName: 'Contacto' },
-]
+import useLanguage from '../hooks/useLanguage'
 
 const HomeDark = () => {
+
+  const { t } = useLanguage()
+
+  const menuItem = [
+  { icon: 'fa-home', menuName: t.tabs.home },
+  { icon: 'fa-user', menuName: t.tabs.about },
+  { icon: 'fa-briefcase', menuName: t.tabs.portfolio },
+  { icon: 'fa-envelope-open', menuName: t.tabs.contact },
+]
+
   useEffect(() => {
     document.querySelector('body').classList.remove('rtl')
   }, [])
+
   return (
     <Wrapper>
       <SEO pageTitle={'Portfolio de Fran Sánchez'} />
@@ -39,7 +44,7 @@ const HomeDark = () => {
                   key={i}
                 >
                   <i className={`fa ${item.icon}`}></i>
-                  <h2>{item.menuName}</h2>
+                  <h2 className="whitespace-nowrap overflow-hidden text-ellipsis">{item.menuName}</h2>
                 </Tab>
               ))}
             </TabList>
@@ -68,9 +73,9 @@ const HomeDark = () => {
               >
                 <div className='title-section text-start text-sm-center'>
                   <h1>
-                    SOBRE <span>MÍ</span>
+                    {t.about.title1} <span>{t.about.title2}</span>
                   </h1>
-                  <span className='title-bg'>Sobre mí</span>
+                  <span className='title-bg'>{t.about.title1} {t.about.title2}</span>
                 </div>
                 {/* End title */}
                 <AboutMain />
@@ -86,9 +91,9 @@ const HomeDark = () => {
                 data-aos-duration='1200'
               >
                 <h1>
-                  mi <span>portfolio</span>
+                  {t.about.titlePortfolio1} <span>{t.about.titlePortfolio2}</span>
                 </h1>
-                <span className='title-bg'>portfolio</span>
+                <span className='title-bg'>{t.about.titlePortfolio2}</span>
               </div>
               {/* End title */}
               <Portfolio />

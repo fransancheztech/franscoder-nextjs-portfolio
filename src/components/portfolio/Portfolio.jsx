@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import PortfolioData from './portfolioData'
+import usePortfolioData from './portfolioData'
 import Image from 'next/image'
 import ModalMain from './modal/ModalMain'
+import useLanguage from '../../hooks/useLanguage'
 
 const Portfolio = () => {
   const [getModal, setGetModal] = useState(false)
@@ -13,6 +14,10 @@ const Portfolio = () => {
     setModalId(id)
   }
 
+  const PortfolioData = usePortfolioData()
+
+  const {t} = useLanguage()
+
   return (
     <>
       <div className='portfolio-main'>
@@ -21,17 +26,17 @@ const Portfolio = () => {
             className='portfolio-tab-list'
             data-aos='fade-up'
           >
-            <Tab>TODOS</Tab>
-            <Tab>MERN</Tab>
-            <Tab>REACT NATIVE</Tab>
-            <Tab>D3.JS</Tab>
+            <Tab>{t.about.titlePorfolioTab1.toUpperCase()}</Tab>
+            <Tab>{t.about.titlePorfolioTab2.toUpperCase()}</Tab>
+            <Tab>{t.about.titlePorfolioTab3.toUpperCase()}</Tab>
+            <Tab>{t.about.titlePorfolioTab4.toUpperCase()}</Tab>
           </TabList>
 
           <div className='container'>
             <TabPanel>
               <div className='tab-container'>
                 {PortfolioData.map(item => {
-                  const { id, type, image, delayAnimation } = item
+                  const { id, type, image, delayAnimation, modalDetails } = item
 
                   return (
                     <div
@@ -47,8 +52,9 @@ const Portfolio = () => {
                           src={image}
                           alt='portfolio project demo'
                         />
-                        <h3>
-                          <span className='content-title'>{type}</span>
+                        <h3 className='flex flex-col'>
+                          <span className='content-title text-center'>{modalDetails[0].project}</span>
+                          <span className='content-title text-center opacity-70'>{type}</span>
                         </h3>
                       </div>
                     </div>

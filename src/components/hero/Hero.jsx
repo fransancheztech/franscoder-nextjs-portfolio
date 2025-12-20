@@ -14,11 +14,11 @@ const Hero = () => {
     const heroContent = {
         heroImage: '/assets/img/hero/dark.png',
         heroMobileImage: heroImgMobile,
-        heroTitleName: t.Hero.greeting,
-        heroDesignation: t.Hero.position,
-        heroDescriptionP1: t.Hero.paragraph1,
-        heroDescriptionP2: t.Hero.paragraph2,
-        heroBtn: t.Hero.paragraph3
+        heroTitleName: t.hero.greeting,
+        heroDesignation: t.hero.position,
+        heroDescriptionP1: t.hero.paragraph1,
+        heroDescriptionP2: t.hero.paragraph2,
+        heroBtn: t.hero.paragraph3
     };
 
     function toggleModalOne() {

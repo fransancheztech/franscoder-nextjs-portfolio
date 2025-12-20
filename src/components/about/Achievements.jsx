@@ -1,10 +1,13 @@
-import React from "react";
-
-const achievementsContent = [
-  { title: "40", subTitle1: "proyectos", subTitle2: "finalizados" },
-];
+import useLanguage from "../../hooks/useLanguage";
 
 const Achievements = () => {
+
+  const {t} = useLanguage();
+
+  const achievementsContent = [
+  { title: t.about.endedProjects1, subTitle1: t.about.endedProjects2, subTitle2: t.about.endedProjects3 },
+];
+
   return (
     <div className='row'>
       {achievementsContent.map((val, i) => (

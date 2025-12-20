@@ -1,18 +1,221 @@
 {
-  "Hero": {
-    "greeting": "Hola, soy Fran Sánchez",
-    "position": "Desarrollador React",
-    "paragraph1": "Diseño y desarrollo aplicaciones web y móviles limpias y escalables, con un fuerte enfoque en la experiencia de usuario y la mantenibilidad del código.",
-    "paragraph2": "Me apasiona convertir problemas reales en soluciones prácticas y bien diseñadas.",
-    "paragraph3": "Más sobre mí"
-  },
-  "LocaleSwitcher": {
-    "switchLocale": "Cambia a {locale, select, es {Español} en {English} otro {Unknown}}"
-  },
-  "NotFound": {
-    "title": "No encontrado (404)"
-  },
-  "PageLayout": {
-    "pageTitle": "next-intl"
-  }
+    "tabs": {
+        "home": "Inicio",
+        "about": "Conóceme",
+        "portfolio": "Portfolio",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "greeting": "Hola, soy Fran Sánchez",
+        "position": "Desarrollador React",
+        "paragraph1": "Diseño y desarrollo aplicaciones web y móviles limpias y escalables, con un fuerte enfoque en la experiencia de usuario y la mantenibilidad del código.",
+        "paragraph2": "Me apasiona convertir problemas reales en soluciones prácticas y bien diseñadas.",
+        "paragraph3": "Más sobre mí"
+    },
+    "about": {
+        "title1": "Sobre",
+        "title2": "mí",
+        "title3": "Informacion personal",
+        "personalInfo": {
+            "name": {
+                "title": "Nombre",
+                "value": "Francisco José"
+            },
+            "surname": {
+                "title": "Apellidos",
+                "value": "Sánchez Cañas"
+            },
+            "age": {
+                "title": "Edad",
+                "value": "33 años"
+            },
+            "job": {
+                "title": "Empleo",
+                "value": "React Developer"
+            },
+            "phone": {
+                "title": "Teléfono",
+                "value": "+34 663 359 457"
+            },
+            "languages": {
+                "title": "Idiomas",
+                "value": "Español, Inglés, Alemán"
+            },
+            "nationality": {
+                "title": "Nacionalidad",
+                "value": "Español"
+            },
+            "location": {
+                "title": "Ubicación",
+                "value": "Sevilla, España"
+            },
+            "email": {
+                "title": "Email",
+                "value": "fransancheztech@gmail.com"
+            }
+        },
+        "downloadCV": "Descargar CV",
+        "endedProjects1": "40",
+        "endedProjects2": "Proyectos",
+        "endedProjects3": "Finalizados",
+        "title4": "Mi arsenal",
+        "title5": "Experiencia",
+        "title6": "Educación",
+        "experience": {
+            "job1": {
+                "year": "2023 - Actualidad",
+                "position": "RPA Developer & Support Lead",
+                "companyName": "MCCM Innovations",
+                "details": "Trabajando en un importante proyecto de Siemens Gamesa Renewable Energy, construyendo Automatizaciones RPA y liderando un equipo internacional de 4 personas, a través del cual proporcionamos soporte técnico a procesos en producción (36 procesos)."
+            },
+            "job2": {
+                "year": "2022 - Actualidad",
+                "position": "Desarrollador Web Frontend",
+                "companyName": "Autónomo",
+                "details": "Desde que comencé a formarme, he desarrollado proyectos con las siguientes tecnologías:",
+                "technologies": [
+                    "React.js para desarrollar numerosas aplicaciones web (total de 16), incluyendo el uso de las tecnologías MERN y Next.js.",
+                    "JavaScript como lenguaje favorito, y con la biblioteca D3.js para desarrollar 5 webs de visualización de datos.",
+                    "CSS incluyendo SASS, SCSS, bootstrap, tailwind, MaterialUI,styled-componentes y ChakraUI para estilizar mis webs.",
+                    "TypeScript para añadir tipos estáticos en mis proyectos más robustos y otorgar así un grado de corrección extra.",
+                    "Git para almacenar mis proyectos, hacer seguimiento de las versiones y de los cambios de estos."
+                ]
+            },
+            "job3": {
+                "year": "2018 - 2021",
+                "position": "Especialista en evaluación de datos",
+                "companyName": "Appen, Autónomo",
+                "details": "Creación, evaluación y corrección de datos relativos a mapas,productos y anuncios online con el fin de entrenar varias IAs."
+            },
+            "job4": {
+                "year": "2017 - Actualidad",
+                "position": "Recepcionista de hotel",
+                "companyName": "Diferentes hoteles",
+                "details": ""
+            }
+        },
+        "education": {
+            "edu1": {
+                "year": "Actualidad",
+                "degree": "Desarrollador",
+                "institute": "Autodidacta",
+                "details": "Durante mi formación, he realizado numerosos cursos, de los cuales los más relevantes son los siguientes:",
+                "courses": [
+                    {
+                        "name": "Java 17 Masterclass",
+                        "platform": "Udemy",
+                        "year": "2024"
+                    },
+                    {
+                        "name": "Become a WordPress Developer w/ PHP: Unlocking Power With Code",
+                        "platform": "Udemy",
+                        "year": "2024"
+                    },
+                    {
+                        "name": "UiPath Foundation & Advanced Courses",
+                        "platform": "UiPath Academy",
+                        "year": "2023"
+                    },
+                    {
+                        "name": "Automation Anywhere Basic",
+                        "platform": "university.automationanywhere",
+                        "year": "2023"
+                    },
+                    {
+                        "name": "Power Automate Developer",
+                        "platform": "learn.microsoft",
+                        "year": "2023"
+                    },
+                    {
+                        "name": "Microservices with Node JS and React",
+                        "platform": "Udemy",
+                        "year": "2023"
+                    },
+                    {
+                        "name": "Understanding TypeScript",
+                        "platform": "Udemy",
+                        "year": "2023"
+                    },
+                    {
+                        "name": "MERN Stack Course - MongoDB, Express, React and NodeJS",
+                        "platform": "Udemy",
+                        "year": "2023"
+                    },
+                    {
+                        "name": "Build an e-commerce app with React and Chakra UI MERN [2023]",
+                        "platform": "Udemy",
+                        "year": "2023"
+                    },
+                    {
+                        "name": "Build and Deploy a React Native App | 2023 React Native Course Tutorial for Beginners",
+                        "platform": "YouTube",
+                        "year": "2023"
+                    },
+                    {
+                        "name": "Next.js Tutorial for Beginners",
+                        "platform": "YouTube",
+                        "year": "2023"
+                    },
+                    {
+                        "name": "Learn TypeScript - Full Tutorial",
+                        "platform": "YouTube",
+                        "year": "2023"
+                    },
+                    {
+                        "name": "Fullstack Web Developer Course",
+                        "platform": "freeCodeCamp",
+                        "year": "2022"
+                    }
+                ]
+            },
+            "edu2": {
+                "year": "2022",
+                "degree": "Primer año del Grado en Física",
+                "institute": "U.N.E.D.",
+                "details": "Formación en materias como computación (C y Maxima), análisis matemático, álgebra, fundamentos de la física, circuitos electrónicos, aplicación del método científico y pensamiento lógico."
+            },
+            "edu3": {
+                "year": "2017",
+                "degree": "Grado en Turismo",
+                "institute": "Universidad de Cádiz",
+                "details": "Formación universitaria como profesional del turismo. A destacar mis aprendizajes de inglés, alemán, trabajo en equipo y soft skills transferibles a la programación profesional."
+            }
+        },
+        "titlePortfolio1": "Mi",
+        "titlePortfolio2": "portfolio",
+        "titlePorfolioTab1": "Todo",
+        "titlePorfolioTab2": "React",
+        "titlePorfolioTab3": "React Native",
+        "titlePorfolioTab4": "D3.js",
+        "projects": {
+            "project1": {
+                "title": "TechLines",
+                "type": "e-commerce"
+            },
+            "project2": {
+                "title": "Jobify",
+                "type": "gestor de empleos"
+            },
+            "project3": {
+                "title": "Calculadora de discos",
+                "type": "app android"
+            },
+            "project4": {
+                "title": "Ecomvision",
+                "type": "panel de administración"
+            },
+            "project5": {
+                "title": "Mapa de educación en los EE.UU.",
+                "type": "cartograma"
+            },
+            "project6": {
+                "title": "Evolución de la temperatura global",
+                "type": "mapa de calor"
+            },
+            "project7": {
+                "title": "Top 100 Películas",
+                "type": "gráfica de áreas y colores"
+            }
+        }
+    }
 }

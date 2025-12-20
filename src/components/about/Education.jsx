@@ -1,4 +1,4 @@
-import React from "react";
+import useLanguage from "../../hooks/useLanguage";
 
 const educationContent = [
   {
@@ -88,27 +88,29 @@ const educationContent = [
 ];
 
 const Education = () => {
+  const {t} = useLanguage();
+
   return (
     <ul>
-      {educationContent.map((val, i) => (
-        <li key={i}>
+      {Object.entries(t.about.education).map(([key, { year, degree, institute, details, courses }]) => (
+        <li key={key}>
           <div className='icon'>
             <i className='fa fa-book'></i>
           </div>
-          <span className='time open-sans-font text-uppercase'>{val.year}</span>
+          <span className='time open-sans-font text-uppercase'>{year}</span>
           <h5 className='poppins-font text-uppercase'>
-            {val.degree}
-            <span className='place open-sans-font'>{val.institute}</span>
+            {degree}
+            <span className='place open-sans-font'>{institute}</span>
           </h5>
-          <p className='open-sans-font'>{val.details}</p>
+          <p className='open-sans-font'>{details}</p>
           <ul className='sublist'>
-            {val.courses
-              ? val.courses.map((value, i) => {
+            {courses
+              ? courses.map((course, i) => {
                   return (
-                    <li className='sublist-element' key={i + 100}>
-                      <p>{value.name}</p>
+                    <li className='sublist-element' key={`${key}-course-${i}`}>
+                      <p>{course.name}</p>
                       <p className='ft-secondary-color'>
-                        {value.platform} - {value.year}
+                        {course.platform} - {course.year}
                       </p>
                     </li>
                   );

@@ -6,8 +6,10 @@ import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
 import heroImgMobile from "../../../public/assets/img/hero/img-mobile.png";
 import Image from "next/image";
+import useLanguage from "../../hooks/useLanguage";
 
 const index = () => {
+  const { t } = useLanguage();
   return (
     <section className='main-content '>
       <div className='container'>
@@ -18,7 +20,7 @@ const index = () => {
             <div className='row'>
               <div className='col-12'>
                 <h3 className='text-uppercase custom-title mb-0 ft-wt-600'>
-                  Información Personal
+                  {t.about.title3}
                 </h3>
               </div>
               {/* End .col */}
@@ -43,7 +45,7 @@ const index = () => {
                   href='/assets/FranciscoSanchez-WebDeveloper-2025.pdf'
                   download='FranciscoSanchez-WebDeveloper-2025'
                 >
-                  <span className='button-text'>Descargar CV</span>
+                  <span className='button-text'>{t.about.downloadCV}</span>
                   <span className='button-icon fa fa-download'></span>
                 </a>
               </div>
@@ -66,7 +68,7 @@ const index = () => {
         <div className='row'>
           <div className='col-12'>
             <h3 className='text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-start text-sm-center custom-title ft-wt-600'>
-              Mi arsenal
+              {t.about.title4}
             </h3>
           </div>
           <Skills />
@@ -77,9 +79,14 @@ const index = () => {
 
         {/* Experience & Education Starts */}
         <div className='row'>
-          <div className='col-12'>
+          <div className='col-6'>
             <h3 className='text-uppercase pb-5 mb-0 text-start text-sm-center custom-title ft-wt-600'>
-              Exeriencia <span>y</span> Educación
+              {t.about.title5}
+            </h3>
+          </div>
+          <div className='col-6'>
+            <h3 className='text-uppercase pb-5 mb-0 text-start text-sm-center custom-title ft-wt-600'>
+              {t.about.title6}
             </h3>
           </div>
           <div className='col-lg-6 m-15px-tb'>
