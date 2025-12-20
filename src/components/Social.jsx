@@ -1,9 +1,10 @@
 import React from 'react'
+import { GITHUB_URL, LINKEDIN_URL, X_URL } from '../constants'
 
 const SocialShare = [
-  { iconName: 'fa fa-linkedin', link: 'https://www.linkedin.com/in/franscoder/' },
-  { iconName: 'fa fa-github', link: 'https://github.com/FranSCoder' },
-  { iconName: 'fa fa-twitter', link: 'https://twitter.com/FranSCoder' },
+  { iconName: 'fa fa-linkedin', link: LINKEDIN_URL },
+  { iconName: 'fa fa-github', link: GITHUB_URL },
+  { iconName: 'fa fa-twitter', link: X_URL },
 ]
 
 const Social = () => {

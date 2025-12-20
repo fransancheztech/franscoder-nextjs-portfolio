@@ -213,5 +213,21 @@
                 "type": "area and color chart"
             }
         }
+    },
+    "contact": {
+        "title1": "Get in",
+        "title2": "touch",
+        "title3": "Get in Touch",
+        "title4": "Don't be shy !",
+        "paragraph": "I'm currently available for freelance projects and full-time positions. Feel free to reach out to discuss how I can contribute to your team or project.",
+        "form": {
+            "name": "Your Name",
+            "email": "Your Email",
+            "subject": "Subject",
+            "message": "Your Message",
+            "send": "Send Message"
+        },
+        "successMessage": "Your message has been sent successfully!",
+        "errorMessage": "There was an error sending your message. Please try again later."
     }
 }

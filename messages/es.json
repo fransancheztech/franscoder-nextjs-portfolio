@@ -217,5 +217,21 @@
                 "type": "gráfica de áreas y colores"
             }
         }
+    },
+    "contact": {
+        "title1": "Contacta",
+        "title2": "Conmigo",
+        "title3": "Contacto",
+        "title4": "No seas tímido!",
+        "paragraph": "No dudes en ponerte en contacto conmigo. Siempre estoy dispuesto a hablar sobre nuevos proyectos, ideas creativas o visiones.",
+        "form": {
+            "name": "Tu nombre",
+            "email": "Tu Email",
+            "subject": "Asunto",
+            "message": "Tu Mensaje",
+            "send": "Enviar Mensaje"
+        },
+        "successMessage": "Mensaje enviado correctamente!",
+        "errorMessage": "Ups, hubo un error al enviar el mensaje, inténtalo de nuevo!"
     }
 }

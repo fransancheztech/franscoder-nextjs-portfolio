@@ -108,9 +108,9 @@ const HomeDark = () => {
                 data-aos-duration='1200'
               >
                 <h1>
-                  contacta <span>conmigo</span>
+                  {t.contact.title1} <span>{t.contact.title2}</span>
                 </h1>
-                <span className='title-bg'>contacto</span>
+                <span className='title-bg'>{t.contact.title3}</span>
               </div>
               <div
                 className='container'
@@ -120,10 +120,9 @@ const HomeDark = () => {
                 <div className='row'>
                   {/*  Left Side Starts */}
                   <div className='col-12 col-lg-4'>
-                    <h3 className='text-uppercase custom-title mb-0 ft-wt-600 pb-3'>No seas tímido/a !</h3>
+                    <h3 className='text-uppercase custom-title mb-0 ft-wt-600 pb-3'>{t.contact.title4}</h3>
                     <p className='open-sans-font mb-4'>
-                      No dudes en ponerte en contacto conmigo. Siempre estoy dispuesto a hablar sobre nuevos proyectos,
-                      ideas creativas o visiones.
+                      {t.contact.paragraph}
                     </p>
                     <Address />
                     {/* End Address */}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Modal from 'react-modal';
 import heroImgMobile from '../../../public/assets/img/hero/img-mobile.png';
 import cancelImg from '../../../public/assets/img/cancel.svg';
@@ -22,7 +22,7 @@ const Hero = () => {
     };
 
     function toggleModalOne() {
-        setIsOpen(!isOpen);
+        setIsOpen((prev) => !prev);
     }
 
     return (
@@ -72,9 +72,9 @@ const Hero = () => {
                         <div data-aos='fade-up' data-aos-duration='1200'>
                             <div className='title-section text-start text-sm-center'>
                                 <h1>
-                                    SOBRE <span>MÍ</span>
+                                    {t.about.title1} <span>{t.about.title2}</span>
                                 </h1>
-                                <span className='title-bg'>Sobre mí</span>
+                                <span className='title-bg'>{t.about.title1} {t.about.title2}</span>
                             </div>
                             {/* End title */}
                             <AboutMain />
