@@ -7,10 +7,10 @@
     },
     "hero": {
         "greeting": "Hi, I'm Fran Sánchez",
-        "position": "React Developer",
-        "paragraph1": "I design and build clean, scalable web and mobile applications with a strong focus on user experience and maintainable code.",
+        "position": "Frontend Engineer (React / Next.js)",
+        "paragraph1": "I design and build scalable web applications with React, focusing on performance, usability, and maintainable architectures used in production environments.",
         "paragraph2": "I'm passionate about turning real-world problems into practical, well-engineered solutions.",
-        "paragraph3": "Learn more about me"
+        "paragraph3": "Available for frontend and full-stack roles"
     },
     "about": {
         "title1": "About",
@@ -31,7 +31,7 @@
             },
             "job": {
                 "title": "Job",
-                "value": "React Developer"
+                "value": "Frontend Engineer (React / Next.js)"
             },
             "phone": {
                 "title": "Phone",
@@ -57,18 +57,29 @@
         "downloadCV": "Download Resume",
         "endedProjects1": "40",
         "endedProjects2": "Ended",
-        "endedProjects3": "Projects",
+        "endedProjects3": "Projects (Professional & Personal)",
         "title4": "My arsenal",
         "title5": "Experience",
         "title6": "Education",
         "experience": {
             "job1": {
-                "year": "2023 - Present",
-                "position": "RPA Developer & Support Lead",
-                "companyName": "MCCM Innovations",
-                "details": "Working on a major project for Siemens Gamesa Renewable Energy, building RPA automations and leading an international team of 4 people, through which we provide technical support for production processes (36 processes)."
+                "year": "2025 - Present",
+                "position": "Frontend Developer / RPA Developer",
+                "companyName": "Nartex",
+                "details": "Dual-role position combining frontend development and robotic process automation. As a Frontend Developer, I work on a large-scale project for the Canary Islands Government, specifically for the Ministry of Agriculture, Livestock, Fisheries and Food Sovereignty, contributing to the development of modern, scalable, production-ready applications focused on data management and open data initiatives in the agricultural and fisheries domains. In parallel, I work as an RPA Developer for Universidad de La Laguna, designing and maintaining UiPath automations to streamline administrative and operational processes.",
+                "technologies": [
+                    "Frontend Development: React, Vite, React Native, Redux Toolkit, RTK Query, Material UI (MUI)",
+                    "Backend & Infrastructure: Java Spring Boot, Docker",
+                    "RPA: UiPath"
+                ]
             },
             "job2": {
+                "year": "2023 - 2025",
+                "position": "RPA Developer & Support Lead",
+                "companyName": "MCCM Innovations",
+                "details": "RPA Developer and Support Lead on a large-scale Siemens Gamesa project, developing production-grade automations and leading an international team of four. Responsible for technical support across 36 live business processes."
+            },
+            "job3": {
                 "year": "2022 - Present",
                 "position": "Frontend Web Developer",
                 "companyName": "Freelance",
@@ -81,14 +92,14 @@
                     "Git to store my projects, track versions, and manage changes."
                 ]
             },
-            "job3": {
+            "job4": {
                 "year": "2018 - 2021",
                 "position": "Data Evaluation Specialist",
                 "companyName": "Appen, Freelance",
                 "details": "Creation, evaluation, and correction of data related to maps, products, and online advertisements in order to train various AI systems."
             },
-            "job4": {
-                "year": "2017 - Present",
+            "job5": {
+                "year": "2017 - 2023",
                 "position": "Hotel Receptionist",
                 "companyName": "Various hotels",
                 "details": ""
@@ -97,9 +108,38 @@
         "education": {
             "edu1": {
                 "year": "Present",
-                "degree": "Developer",
+                "degree": "Software Developer",
                 "institute": "Self-taught",
-                "details": "During my training, I have completed numerous courses, the most relevant of which are the following:",
+                "details": "Ongoing self-directed education focused on software development, automation, and cybersecurity, supported by professional certifications and specialized courses.",
+                "title1": "Certifications",
+                "title2": "Courses",
+                "certifications": [
+                    {
+                        "name": "CompTIA Security+ (SY0-701)",
+                        "platform": "Pearson VUE",
+                        "year": "2025"
+                    },
+                    {
+                        "name": "Google Cybersecurity Professional Certificate",
+                        "platform": "Coursera",
+                        "year": "2024"
+                    },
+                    {
+                        "name": "UiPath Advanced RPA Developer",
+                        "platform": "UiPath Academy",
+                        "year": "2023"
+                    },
+                    {
+                        "name": "Certified ScrumMaster (CSM)",
+                        "platform": "Scrum Manager",
+                        "year": "2025"
+                    },
+                    {
+                        "name": "freeCodeCamp Full-Stack Developer Certification",
+                        "platform": "freeCodeCamp",
+                        "year": "2023"
+                    }
+                ],
                 "courses": [
                     {
                         "name": "Java 17 Masterclass",
@@ -118,12 +158,12 @@
                     },
                     {
                         "name": "Automation Anywhere Basic",
-                        "platform": "university.automationanywhere",
+                        "platform": "Automation Anywhere University",
                         "year": "2023"
                     },
                     {
                         "name": "Power Automate Developer",
-                        "platform": "learn.microsoft",
+                        "platform": "Microsoft Learn",
                         "year": "2023"
                     },
                     {
@@ -131,19 +171,23 @@
                         "platform": "Udemy",
                         "year": "2023"
                     },
-                    { "name": "Understanding TypeScript", "platform": "Udemy", "year": "2023" },
+                    {
+                        "name": "Understanding TypeScript",
+                        "platform": "Udemy",
+                        "year": "2023"
+                    },
                     {
                         "name": "MERN Stack Course - MongoDB, Express, React and NodeJS",
                         "platform": "Udemy",
                         "year": "2023"
                     },
                     {
-                        "name": "Build an e-commerce app with React and Chakra UI MERN [2023]",
+                        "name": "Build an e-commerce app with React and Chakra UI MERN",
                         "platform": "Udemy",
                         "year": "2023"
                     },
                     {
-                        "name": "Build and Deploy a React Native App | 2023 React Native Course Tutorial for Beginners",
+                        "name": "Build and Deploy a React Native App",
                         "platform": "YouTube",
                         "year": "2023"
                     },
@@ -166,15 +210,15 @@
             },
             "edu2": {
                 "year": "2022",
-                "degree": "First year of Physics Degree",
+                "degree": "First Year of Physics Degree",
                 "institute": "U.N.E.D.",
-                "details": "Training in subjects such as computing (C and Maxima), mathematical analysis, algebra, physics fundamentals, electronic circuits, application of the scientific method, and logical thinking."
+                "details": "Academic training in computing (C and Maxima), mathematical analysis, algebra, physics fundamentals, electronic circuits, and application of the scientific method."
             },
             "edu3": {
                 "year": "2017",
                 "degree": "Bachelor’s Degree in Tourism",
                 "institute": "University of Cádiz",
-                "details": "University education as a tourism professional. Notable learning includes English, German, teamwork, and soft skills transferable to professional programming."
+                "details": "University education with strong emphasis on English and German language skills, teamwork, and soft skills transferable to professional software development."
             }
         },
         "titlePortfolio1": "My",
@@ -211,6 +255,15 @@
             "project7": {
                 "title": "Top 100 Movies",
                 "type": "area and color chart"
+            },
+            "modals": {
+                "title1": "Project",
+                "title2": "Code",
+                "value2": "GitHub Repository",
+                "title3": "Technologies",
+                "title4": "Live App",
+                "title5": "Notice",
+                "notice": "The server where this application is hosted may take a few seconds to wake up. If the application does not load immediately, please wait a moment."
             }
         }
     },
@@ -219,7 +272,7 @@
         "title2": "touch",
         "title3": "Get in Touch",
         "title4": "Don't be shy !",
-        "paragraph": "I'm currently available for freelance projects and full-time positions. Feel free to reach out to discuss how I can contribute to your team or project.",
+        "paragraph": "I'm currently available full-time positions. Feel free to reach out to discuss how I can contribute to your team or project.",
         "form": {
             "name": "Your Name",
             "email": "Your Email",

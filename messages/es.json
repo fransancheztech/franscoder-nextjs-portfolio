@@ -7,15 +7,15 @@
     },
     "hero": {
         "greeting": "Hola, soy Fran Sánchez",
-        "position": "Desarrollador React",
-        "paragraph1": "Diseño y desarrollo aplicaciones web y móviles limpias y escalables, con un fuerte enfoque en la experiencia de usuario y la mantenibilidad del código.",
+        "position": "Desarrollador Frontend (React / Next.js)",
+        "paragraph1": "Diseño y desarrollo aplicaciones web escalables con React, con especial foco en el rendimiento, la usabilidad y arquitecturas mantenibles utilizadas en entornos de producción.",
         "paragraph2": "Me apasiona convertir problemas reales en soluciones prácticas y bien diseñadas.",
-        "paragraph3": "Más sobre mí"
+        "paragraph3": "Disponible para posiciones frontend y full-stack"
     },
     "about": {
         "title1": "Sobre",
         "title2": "mí",
-        "title3": "Informacion personal",
+        "title3": "Información personal",
         "personalInfo": {
             "name": {
                 "title": "Nombre",
@@ -31,7 +31,7 @@
             },
             "job": {
                 "title": "Empleo",
-                "value": "React Developer"
+                "value": "Desarrollador Frontend (React / Next.js)"
             },
             "phone": {
                 "title": "Teléfono",
@@ -57,18 +57,29 @@
         "downloadCV": "Descargar CV",
         "endedProjects1": "40",
         "endedProjects2": "Proyectos",
-        "endedProjects3": "Finalizados",
+        "endedProjects3": "Completados",
         "title4": "Mi arsenal",
         "title5": "Experiencia",
         "title6": "Educación",
         "experience": {
             "job1": {
-                "year": "2023 - Actualidad",
-                "position": "RPA Developer & Support Lead",
-                "companyName": "MCCM Innovations",
-                "details": "Trabajando en un importante proyecto de Siemens Gamesa Renewable Energy, construyendo Automatizaciones RPA y liderando un equipo internacional de 4 personas, a través del cual proporcionamos soporte técnico a procesos en producción (36 procesos)."
+                "year": "2025 - Actualidad",
+                "position": "Frontend Developer / RPA Developer",
+                "companyName": "Nartex",
+                "details": "Puesto de doble responsabilidad que combina desarrollo frontend y automatización de procesos mediante RPA. Como Frontend Developer, trabajo en un proyecto de gran escala para el Gobierno de Canarias, concretamente para la Consejería de Agricultura, Ganadería, Pesca y Soberanía Alimentaria, contribuyendo al desarrollo de aplicaciones modernas, escalables y orientadas a producción, centradas en la gestión y apertura de datos en los ámbitos agrícola y pesquero. De forma paralela, desempeño el rol de RPA Developer para la Universidad de La Laguna, diseñando y manteniendo automatizaciones en UiPath para optimizar procesos administrativos y operativos.",
+                "technologies": [
+                    "Desarrollo Frontend: React, Vite, React Native, Redux Toolkit, RTK Query, Material UI (MUI)",
+                    "Backend e Infraestructura: Java Spring Boot, Docker",
+                    "RPA: UiPath"
+                ]
             },
             "job2": {
+                "year": "2023 - 2025",
+                "position": "RPA Developer & Support Lead",
+                "companyName": "MCCM Innovations",
+                "details": "RPA Developer y Support Lead en un proyecto de gran escala para Siemens Gamesa, desarrollando automatizaciones en entornos productivos y liderando un equipo internacional de cuatro personas. Responsable del soporte técnico de 36 procesos de negocio en producción."
+            },
+            "job3": {
                 "year": "2022 - Actualidad",
                 "position": "Desarrollador Web Frontend",
                 "companyName": "Autónomo",
@@ -76,19 +87,19 @@
                 "technologies": [
                     "React.js para desarrollar numerosas aplicaciones web (total de 16), incluyendo el uso de las tecnologías MERN y Next.js.",
                     "JavaScript como lenguaje favorito, y con la biblioteca D3.js para desarrollar 5 webs de visualización de datos.",
-                    "CSS incluyendo SASS, SCSS, bootstrap, tailwind, MaterialUI,styled-componentes y ChakraUI para estilizar mis webs.",
+                    "CSS incluyendo SASS, SCSS, Bootstrap, Tailwind, MaterialUI, Styled-componentes y ChakraUI para estilizar mis webs.",
                     "TypeScript para añadir tipos estáticos en mis proyectos más robustos y otorgar así un grado de corrección extra.",
                     "Git para almacenar mis proyectos, hacer seguimiento de las versiones y de los cambios de estos."
                 ]
             },
-            "job3": {
+            "job4": {
                 "year": "2018 - 2021",
                 "position": "Especialista en evaluación de datos",
                 "companyName": "Appen, Autónomo",
-                "details": "Creación, evaluación y corrección de datos relativos a mapas,productos y anuncios online con el fin de entrenar varias IAs."
+                "details": "Creación, evaluación y corrección de datos relativos a mapas,productos y anuncios online con el fin de entrenar varios sistemas de IA."
             },
-            "job4": {
-                "year": "2017 - Actualidad",
+            "job5": {
+                "year": "2017 - 2023",
                 "position": "Recepcionista de hotel",
                 "companyName": "Diferentes hoteles",
                 "details": ""
@@ -97,9 +108,38 @@
         "education": {
             "edu1": {
                 "year": "Actualidad",
-                "degree": "Desarrollador",
+                "degree": "Desarrollador de Software",
                 "institute": "Autodidacta",
-                "details": "Durante mi formación, he realizado numerosos cursos, de los cuales los más relevantes son los siguientes:",
+                "details": "Formación autodidacta continua orientada al desarrollo de software, automatización y ciberseguridad, complementada con certificaciones profesionales y cursos especializados.",
+                "title1": "Certificaciones",
+                "title2": "Cursos",
+                "certifications": [
+                    {
+                        "name": "CompTIA Security+ (SY0-701)",
+                        "platform": "Pearson VUE",
+                        "year": "2025"
+                    },
+                    {
+                        "name": "Google Cybersecurity Professional Certificate",
+                        "platform": "Coursera",
+                        "year": "2024"
+                    },
+                    {
+                        "name": "UiPath Advanced RPA Developer",
+                        "platform": "UiPath Academy",
+                        "year": "2023"
+                    },
+                    {
+                        "name": "Certified ScrumMaster (CSM)",
+                        "platform": "Scrum Manager",
+                        "year": "2025"
+                    },
+                    {
+                        "name": "freeCodeCamp Full-Stack Developer Certification",
+                        "platform": "freeCodeCamp",
+                        "year": "2023"
+                    }
+                ],
                 "courses": [
                     {
                         "name": "Java 17 Masterclass",
@@ -118,12 +158,12 @@
                     },
                     {
                         "name": "Automation Anywhere Basic",
-                        "platform": "university.automationanywhere",
+                        "platform": "Automation Anywhere University",
                         "year": "2023"
                     },
                     {
                         "name": "Power Automate Developer",
-                        "platform": "learn.microsoft",
+                        "platform": "Microsoft Learn",
                         "year": "2023"
                     },
                     {
@@ -142,12 +182,12 @@
                         "year": "2023"
                     },
                     {
-                        "name": "Build an e-commerce app with React and Chakra UI MERN [2023]",
+                        "name": "Build an e-commerce app with React and Chakra UI MERN",
                         "platform": "Udemy",
                         "year": "2023"
                     },
                     {
-                        "name": "Build and Deploy a React Native App | 2023 React Native Course Tutorial for Beginners",
+                        "name": "Build and Deploy a React Native App",
                         "platform": "YouTube",
                         "year": "2023"
                     },
@@ -172,13 +212,13 @@
                 "year": "2022",
                 "degree": "Primer año del Grado en Física",
                 "institute": "U.N.E.D.",
-                "details": "Formación en materias como computación (C y Maxima), análisis matemático, álgebra, fundamentos de la física, circuitos electrónicos, aplicación del método científico y pensamiento lógico."
+                "details": "Formación en computación (C y Maxima), análisis matemático, álgebra, fundamentos de la física, circuitos electrónicos y aplicación del método científico."
             },
             "edu3": {
                 "year": "2017",
                 "degree": "Grado en Turismo",
                 "institute": "Universidad de Cádiz",
-                "details": "Formación universitaria como profesional del turismo. A destacar mis aprendizajes de inglés, alemán, trabajo en equipo y soft skills transferibles a la programación profesional."
+                "details": "Formación universitaria con especial énfasis en idiomas (inglés y alemán), trabajo en equipo y soft skills transferibles al desarrollo de software profesional."
             }
         },
         "titlePortfolio1": "Mi",
@@ -215,6 +255,15 @@
             "project7": {
                 "title": "Top 100 Películas",
                 "type": "gráfica de áreas y colores"
+            },
+            "modals": {
+                "title1": "Proyecto",
+                "title2": "Código",
+                "value2": "Repositorio de GitHub",
+                "title3": "Tecnologías",
+                "title4": "Aplicación",
+                "title5": "Aviso",
+                "notice": "El servidor donde se aloja esta aplicación puede tardar unos segundos en despertarse. Si la aplicación no carga inmediatamente, por favor espera unos instantes."
             }
         }
     },
@@ -223,7 +272,7 @@
         "title2": "Conmigo",
         "title3": "Contacto",
         "title4": "No seas tímido!",
-        "paragraph": "No dudes en ponerte en contacto conmigo. Siempre estoy dispuesto a hablar sobre nuevos proyectos, ideas creativas o visiones.",
+        "paragraph": "No dudes en ponerte en contacto conmigo. Actualmente estoy abierto a nuevas oportunidades laborales y proyectos profesionales.",
         "form": {
             "name": "Tu nombre",
             "email": "Tu Email",

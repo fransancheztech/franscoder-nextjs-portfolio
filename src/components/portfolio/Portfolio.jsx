@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import usePortfolioData from './portfolioData'
 import Image from 'next/image'
-import ModalMain from './modal/ModalMain'
+import ModalMain from './ModalMain'
 import useLanguage from '../../hooks/useLanguage'
 
 const Portfolio = () => {
@@ -36,7 +36,7 @@ const Portfolio = () => {
             <TabPanel>
               <div className='tab-container'>
                 {PortfolioData.map(item => {
-                  const { id, type, image, delayAnimation, modalDetails } = item
+                  const { id, type, mainImage, delayAnimation, modalDetails } = item
 
                   return (
                     <div
@@ -49,7 +49,7 @@ const Portfolio = () => {
                         onClick={() => handleModal(id)}
                       >
                         <Image
-                          src={image}
+                          src={mainImage}
                           alt='portfolio project demo'
                         />
                         <h3 className='flex flex-col'>
@@ -68,7 +68,7 @@ const Portfolio = () => {
                 {PortfolioData.filter(item =>
                   ['mongodb', 'express', 'react', 'node'].every(i => item.tag.includes(i))
                 ).map(item => {
-                  const { id, type, image, delayAnimation } = item
+                  const { id, type, mainImage, delayAnimation } = item
                   return (
                     <div
                       key={id}
@@ -80,7 +80,7 @@ const Portfolio = () => {
                         onClick={() => handleModal(id)}
                       >
                         <Image
-                          src={image}
+                          src={mainImage}
                           alt='portfolio project demo'
                         />
                         <h3>
@@ -97,7 +97,7 @@ const Portfolio = () => {
             <TabPanel>
               <div className='tab-container'>
                 {PortfolioData.filter(item => item.tag.includes('react-native')).map(item => {
-                  const { id, type, image, delayAnimation } = item
+                  const { id, type, mainImage, delayAnimation } = item
                   return (
                     <div
                       key={id}
@@ -109,7 +109,7 @@ const Portfolio = () => {
                         onClick={() => handleModal(id)}
                       >
                         <Image
-                          src={image}
+                          src={mainImage}
                           alt='portfolio project demo'
                         />
                         <h3>
@@ -126,7 +126,7 @@ const Portfolio = () => {
             <TabPanel>
               <div className='tab-container'>
                 {PortfolioData.filter(item => item.tag.includes('d3')).map(item => {
-                  const { id, type, image, delayAnimation } = item
+                  const { id, type, mainImage, delayAnimation } = item
                   return (
                     <div
                       key={id}
@@ -138,7 +138,7 @@ const Portfolio = () => {
                         onClick={() => handleModal(id)}
                       >
                         <Image
-                          src={image}
+                          src={mainImage}
                           alt='portfolio project demo'
                         />
                         <h3>
