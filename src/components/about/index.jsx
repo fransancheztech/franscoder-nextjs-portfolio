@@ -79,25 +79,25 @@ const index = () => {
 
         {/* Experience & Education Starts */}
         <div className='row'>
-          <div>
+          <div className="flex flex-col items-center">
             <div className='col-12 lg-col-6'>
               <h3 className='text-uppercase pb-5 mb-0 text-center custom-title ft-wt-600'>
                 {t.about.title5}
               </h3>
             </div>
-            <div className='col-lg-6 m-15px-tb'>
+            <div className='col-12 col-lg-6'>
               <div className='resume-box'>
                 <Experience />
               </div>
             </div>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <div className='col-12 lg-col-6'>
               <h3 className='text-uppercase pb-5 mb-0 text-center custom-title ft-wt-600'>
                 {t.about.title6}
               </h3>
             </div>          
-            <div className='col-lg-6 m-15px-tb'>
+            <div className='col-12 col-lg-6 m-15px-tb'>
               <div className='resume-box'>
                 <Education />
               </div>
