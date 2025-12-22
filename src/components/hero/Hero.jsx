@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Modal from 'react-modal';
 import heroImgMobile from '../../../public/assets/img/hero/img-mobile.png';
 import cancelImg from '../../../public/assets/img/cancel.svg';
-import AboutMain from '../about';
+import About from '../about';
 import Image from 'next/image';
 import useLanguage from '../../hooks/useLanguage';
 
@@ -31,7 +31,7 @@ const Hero = () => {
                 <div
                     className='col-lg-4 bg position-fixed d-none d-lg-block'
                     style={{ backgroundImage: `url(${heroContent.heroImage})` }}></div>
-                <div className='col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start'>
+                <div className='col-12 col-lg-8 offset-lg-4 home-details text-center text-lg-start'>
                     <div>
                         <Image
                             src={heroContent.heroMobileImage}
@@ -70,14 +70,14 @@ const Hero = () => {
 
                     <div className='box_inner about'>
                         <div data-aos='fade-up' data-aos-duration='1200'>
-                            <div className='title-section text-start text-sm-center'>
+                            <div className='title-section text-center'>
                                 <h1>
                                     {t.about.title1} <span>{t.about.title2}</span>
                                 </h1>
                                 <span className='title-bg'>{t.about.title1} {t.about.title2}</span>
                             </div>
                             {/* End title */}
-                            <AboutMain />
+                            <About />
                         </div>
                     </div>
                 </div>

@@ -16,10 +16,10 @@ const index = () => {
         <div className='row'>
           {/* Personal Info Starts */}
 
-          <div className='col-xl-6 col-lg-5 col-12'>
+          <div className='col-lg-6 col-12'>
             <div className='row'>
-              <div className='col-12'>
-                <h3 className='text-uppercase custom-title mb-0 ft-wt-600'>
+              <div className="col-12">
+                <h3 className="text-uppercase custom-title mb-0 ft-wt-600 text-center">
                   {t.about.title3}
                 </h3>
               </div>
@@ -39,7 +39,7 @@ const index = () => {
               </div>
               {/* End personal info */}
 
-              <div className='col-12 mt-1'>
+              <div className='col-12 justify-center align-center flex mt-2'>
                 <a
                   className='button'
                   href='/assets/FranciscoSanchez-WebDeveloper-2025.pdf'
@@ -55,19 +55,19 @@ const index = () => {
           {/*  Personal Info Ends */}
 
           {/*  Boxes Starts */}
-          <div className='col-xl-6 col-lg-7 col-12 mt-5 mt-lg-0'>
+          <div className='col-lg-6 col-12 mt-5 mt-lg-0 justify-center align-center flex'>
             <Achievements />
           </div>
           {/* Achievements Ends */}
         </div>
         {/* End .row */}
 
-        <hr className='separator' />
+        <hr className='separator my-5' />
 
         {/* Skills Starts */}
         <div className='row'>
           <div className='col-12'>
-            <h3 className='text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-start text-sm-center custom-title ft-wt-600'>
+            <h3 className='text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-center custom-title ft-wt-600'>
               {t.about.title4}
             </h3>
           </div>
@@ -79,24 +79,28 @@ const index = () => {
 
         {/* Experience & Education Starts */}
         <div className='row'>
-          <div className='col-6'>
-            <h3 className='text-uppercase pb-5 mb-0 text-start text-sm-center custom-title ft-wt-600'>
-              {t.about.title5}
-            </h3>
-          </div>
-          <div className='col-6'>
-            <h3 className='text-uppercase pb-5 mb-0 text-start text-sm-center custom-title ft-wt-600'>
-              {t.about.title6}
-            </h3>
-          </div>
-          <div className='col-lg-6 m-15px-tb'>
-            <div className='resume-box'>
-              <Experience />
+          <div>
+            <div className='col-12 lg-col-6'>
+              <h3 className='text-uppercase pb-5 mb-0 text-center custom-title ft-wt-600'>
+                {t.about.title5}
+              </h3>
+            </div>
+            <div className='col-lg-6 m-15px-tb'>
+              <div className='resume-box'>
+                <Experience />
+              </div>
             </div>
           </div>
-          <div className='col-lg-6 m-15px-tb'>
-            <div className='resume-box'>
-              <Education />
+          <div>
+            <div className='col-12 lg-col-6'>
+              <h3 className='text-uppercase pb-5 mb-0 text-center custom-title ft-wt-600'>
+                {t.about.title6}
+              </h3>
+            </div>          
+            <div className='col-lg-6 m-15px-tb'>
+              <div className='resume-box'>
+                <Education />
+              </div>
             </div>
           </div>
         </div>

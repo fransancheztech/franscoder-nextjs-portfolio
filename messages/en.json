@@ -10,7 +10,7 @@
         "position": "Frontend Engineer (React / Next.js)",
         "paragraph1": "I design and build scalable web applications with React, focusing on performance, usability, and maintainable architectures used in production environments.",
         "paragraph2": "I'm passionate about turning real-world problems into practical, well-engineered solutions.",
-        "paragraph3": "Available for frontend and full-stack roles"
+        "paragraph3": "Frontend & Full-Stack"
     },
     "about": {
         "title1": "About",
@@ -57,7 +57,7 @@
         "downloadCV": "Download Resume",
         "endedProjects1": "40",
         "endedProjects2": "Ended",
-        "endedProjects3": "Projects (Professional & Personal)",
+        "endedProjects3": "Projects",
         "title4": "My arsenal",
         "title5": "Experience",
         "title6": "Education",
@@ -270,7 +270,7 @@
     "contact": {
         "title1": "Get in",
         "title2": "touch",
-        "title3": "Get in Touch",
+        "title3": "Contact",
         "title4": "Don't be shy !",
         "paragraph": "I'm currently available full-time positions. Feel free to reach out to discuss how I can contribute to your team or project.",
         "form": {

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import Hero from '../components/hero/Hero'
 import AboutMain from '../components/about'
@@ -71,7 +71,7 @@ const HomeDark = () => {
                 data-aos='fade-up'
                 data-aos-duration='1200'
               >
-                <div className='title-section text-start text-sm-center'>
+                <div className='title-section text-center'>
                   <h1>
                     {t.about.title1} <span>{t.about.title2}</span>
                   </h1>
@@ -86,7 +86,7 @@ const HomeDark = () => {
             {/* Portfolio Content Starts */}
             <TabPanel className='portfolio professional'>
               <div
-                className='title-section text-start text-sm-center'
+                className='title-section text-center'
                 data-aos='fade-up'
                 data-aos-duration='1200'
               >
@@ -103,7 +103,7 @@ const HomeDark = () => {
             {/* Contact Content Starts */}
             <TabPanel className='contact'>
               <div
-                className='title-section text-start text-sm-center'
+                className='title-section text-center'
                 data-aos='fade-up'
                 data-aos-duration='1200'
               >

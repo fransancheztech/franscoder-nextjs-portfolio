@@ -1,12 +1,10 @@
 import { useState, useEffect, useRef } from 'react';
 import useLanguage from '../../hooks/useLanguage';
-import { IoIosArrowDown } from 'react-icons/io';
-import { IoIosArrowUp } from 'react-icons/io';
+import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 
 const SwitchLng = () => {
-    const { router, locale, t } = useLanguage();
+    const { router, locale } = useLanguage();
     const [isLanguageOpen, setIsLanguageOpen] = useState(false);
-
     const switcherRef = useRef(null);
 
     useEffect(() => {
@@ -24,7 +22,10 @@ const SwitchLng = () => {
     }, [isLanguageOpen]);
 
     const changeLanguage = (newLocale) => {
-        router.push('/', '/', { locale: newLocale });
+        router.replace(router.asPath, router.asPath, {
+            locale: newLocale,
+            scroll: false
+        });
     };
 
     return (
