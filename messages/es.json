@@ -110,7 +110,7 @@
                 "year": "Actualidad",
                 "degree": "Desarrollador de Software",
                 "institute": "Autodidacta",
-                "details": "Formación autodidacta continua orientada al desarrollo de software, automatización y ciberseguridad, complementada con certificaciones profesionales y cursos especializados.",
+                "details": "Formación autodidacta continua orientada al desarrollo web y de software, automatización y ciberseguridad, complementada con certificaciones profesionales y cursos especializados.",
                 "title1": "Certificaciones",
                 "title2": "Cursos",
                 "certifications": [
@@ -272,7 +272,7 @@
         "title2": "Conmigo",
         "title3": "Contacto",
         "title4": "No seas tímido!",
-        "paragraph": "No dudes en ponerte en contacto conmigo. Actualmente estoy abierto a nuevas oportunidades laborales y proyectos profesionales.",
+        "paragraph": "Actualmente estoy abierto a oportunidades a tiempo completo y me encantaría conversar sobre cómo mis habilidades y experiencia pueden aportar valor a su equipo o proyecto.",
         "form": {
             "name": "Tu nombre",
             "email": "Tu Email",
