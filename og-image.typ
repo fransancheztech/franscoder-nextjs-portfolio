@@ -4,7 +4,13 @@
 // Render (--ppi 72 makes 1pt = 1px, giving exactly the 1200x630 that LinkedIn,
 // WhatsApp, Slack and X expect):
 //
-//     typst compile --format png --ppi 72 og-image.typ public/portfolio-preview.jpg
+//     typst compile --format png --ppi 144 og-image.typ public/og-image.png
+//
+// --ppi 144, not 72. The page is defined as 1200x630pt, so ppi 72 would give
+// exactly the 1200x630 that Open Graph specifies — but feed cards render on
+// high-DPI screens, where a 1200px image displayed at ~600 CSS px has no
+// headroom and looks soft. 144 renders the same layout at 2400x1260, which
+// downscales cleanly. Keep og:image:width/height in Seo.jsx matching the file.
 //
 // Deliberately NOT a screenshot of the homepage. A social card is rendered at
 // roughly 1200x630 in a feed and often scaled down further on mobile, so a

@@ -47,11 +47,11 @@ const SEO = () => {
       />
       <meta
         property='og:image:width'
-        content='1200'
+        content='2400'
       />
       <meta
         property='og:image:height'
-        content='630'
+        content='1260'
       />
       <meta
         property='og:image:type'
