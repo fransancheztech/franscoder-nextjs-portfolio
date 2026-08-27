@@ -36,24 +36,29 @@ const ModalMain = ({ modalId, setGetModal }) => {
                                                         {details.project}
                                                     </span>
                                                 </div>
-                                                <div className="col-12 col-sm-6 mb-2">
-                                                    <i className="fa fa-code pr-2"></i>
-                                                    {
-                                                        t.about.projects.modals
-                                                            .title2
-                                                    }
-                                                    :{" "}
-                                                    <a
-                                                        className="preview-link"
-                                                        target="_blank"
-                                                        rel="noopener noreferrer nofollow"
-                                                        href={details.codeLink}>
+                                                {details.codeLink && (
+                                                    <div className="col-12 col-sm-6 mb-2">
+                                                        <i className="fa fa-code pr-2"></i>
                                                         {
                                                             t.about.projects
-                                                                .modals.value2
+                                                                .modals.title2
                                                         }
-                                                    </a>{" "}
-                                                </div>
+                                                        :{" "}
+                                                        <a
+                                                            className="preview-link"
+                                                            target="_blank"
+                                                            rel="noopener noreferrer nofollow"
+                                                            href={
+                                                                details.codeLink
+                                                            }>
+                                                            {
+                                                                t.about.projects
+                                                                    .modals
+                                                                    .value2
+                                                            }
+                                                        </a>{" "}
+                                                    </div>
+                                                )}
                                                 <div className="col-12 col-sm-6 mb-2">
                                                     <i className="fa fa-keyboard-o pr-2"></i>
                                                     {
@@ -65,35 +70,36 @@ const ModalMain = ({ modalId, setGetModal }) => {
                                                         {details.language}
                                                     </span>
                                                 </div>
-                                                <div className="col-12 col-sm-6 mb-2">
-                                                    <i className="fa fa-external-link pr-2"></i>
-                                                    {
-                                                        t.about.projects.modals
-                                                            .title4
-                                                    }
-                                                    :{" "}
-                                                    <a
-                                                        className="preview-link"
-                                                        target="_blank"
-                                                        rel="noopener noreferrer nofollow"
-                                                        href={details.link}>
-                                                        {details.preview}
-                                                    </a>
-                                                </div>
-                                                <div className="col-12">
-                                                    <i className="fa fa-exclamation pr-2"></i>
-                                                    {
-                                                        t.about.projects.modals
-                                                            .title5
-                                                    }
-                                                    :{" "}
-                                                    <span className="ft-wt-600">
+                                                {details.link && (
+                                                    <div className="col-12 col-sm-6 mb-2">
+                                                        <i className="fa fa-external-link pr-2"></i>
                                                         {
                                                             t.about.projects
-                                                                .modals.notice
+                                                                .modals.title4
                                                         }
-                                                    </span>
-                                                </div>
+                                                        :{" "}
+                                                        <a
+                                                            className="preview-link"
+                                                            target="_blank"
+                                                            rel="noopener noreferrer nofollow"
+                                                            href={details.link}>
+                                                            {details.preview}
+                                                        </a>
+                                                    </div>
+                                                )}
+                                                {details.notice && (
+                                                    <div className="col-12">
+                                                        <i className="fa fa-exclamation pr-2"></i>
+                                                        {
+                                                            t.about.projects
+                                                                .modals.title5
+                                                        }
+                                                        :{" "}
+                                                        <span className="ft-wt-600">
+                                                            {details.notice}
+                                                        </span>
+                                                    </div>
+                                                )}
                                             </div>
                                         );
                                     })}

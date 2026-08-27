@@ -1,4 +1,10 @@
 {
+    "seo": {
+        "title": "Fran Sánchez — Python Engineer",
+        "description": "Python engineer building and running production systems: retrieval pipelines, orchestration, and the services around them. Based in Seville, working remotely with European teams.",
+        "ogTitle": "Fran Sánchez — Python Engineer, AI & Platform",
+        "ogDescription": "Production RAG pipelines, Apache Airflow orchestration and full-stack TypeScript. Selected work, experience and contact details."
+    },
     "tabs": {
         "home": "Home",
         "about": "About Me",
@@ -7,10 +13,10 @@
     },
     "hero": {
         "greeting": "Hi, I'm Fran Sánchez",
-        "position": "Frontend Engineer (React / Next.js)",
-        "paragraph1": "I design and build scalable web applications with React, focusing on performance, usability, and maintainable architectures used in production environments.",
+        "position": "Python Engineer · AI, Platform & Full-Stack",
+        "paragraph1": "I build and run production systems in Python — retrieval pipelines, orchestration, and the services around them — and I ship the interfaces that sit on top, in React and TypeScript.",
         "paragraph2": "I'm passionate about turning real-world problems into practical, well-engineered solutions.",
-        "paragraph3": "Frontend & Full-Stack"
+        "paragraph3": "Python · AI · Full-Stack · Automation"
     },
     "about": {
         "title1": "About",
@@ -25,13 +31,9 @@
                 "title": "Surname",
                 "value": "Sánchez Cañas"
             },
-            "age": {
-                "title": "Age",
-                "value": "33 years old"
-            },
             "job": {
                 "title": "Job",
-                "value": "Frontend Engineer (React / Next.js)"
+                "value": "Python Engineer · AI, Platform & Full-Stack"
             },
             "phone": {
                 "title": "Phone",
@@ -39,11 +41,7 @@
             },
             "languages": {
                 "title": "Languages",
-                "value": "Spanish, English, German"
-            },
-            "nationality": {
-                "title": "Nationality",
-                "value": "Spanish"
+                "value": "Spanish (native), English (professional), German (basic)"
             },
             "location": {
                 "title": "Location",
@@ -55,21 +53,49 @@
             }
         },
         "downloadCV": "Download Resume",
-        "endedProjects1": "40",
-        "endedProjects2": "Ended",
-        "endedProjects3": "Projects",
+        "endedProjects1": "70,000",
+        "endedProjects2": "Documents indexed",
+        "endedProjects3": "per day",
         "title4": "My arsenal",
+        "skills": [
+            {
+                "group": "Python & AI",
+                "items": ["Python", "FastAPI", "Haystack", "Qdrant", "Ollama", "RAG"]
+            },
+            {
+                "group": "Orchestration & Platform",
+                "items": ["Apache Airflow", "Docker", "Docker Compose", "GitHub Actions CI/CD", "Git"]
+            },
+            {
+                "group": "Frontend",
+                "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "MUI", "Redux Toolkit", "RTK Query"]
+            },
+            {
+                "group": "Backend & Data",
+                "items": ["Node.js", "Express", "PostgreSQL", "MongoDB", "Supabase"]
+            },
+            {
+                "group": "Automation",
+                "items": ["UiPath", "Automation Anywhere", "Power Automate", "Playwright"]
+            },
+            {
+                "group": "Practices & Testing",
+                "items": ["Agile / Scrum", "Jest", "Cypress"]
+            }
+        ],
         "title5": "Experience",
         "title6": "Education",
         "experience": {
             "job1": {
                 "year": "2025 - Present",
-                "position": "Frontend Developer / RPA Developer",
+                "position": "Full-Stack Developer & RPA Engineer",
                 "companyName": "Nartex",
-                "details": "Dual-role position combining frontend development and robotic process automation. As a Frontend Developer, I work on a large-scale project for the Canary Islands Government, specifically for the Ministry of Agriculture, Livestock, Fisheries and Food Sovereignty, contributing to the development of modern, scalable, production-ready applications focused on data management and open data initiatives in the agricultural and fisheries domains. In parallel, I work as an RPA Developer for Universidad de La Laguna, designing and maintaining UiPath automations to streamline administrative and operational processes.",
+                "details": "A role that spans Python and platform engineering, full-stack development, and automation. I build and operate a retrieval-augmented generation pipeline that ingests and indexes around 70,000 Spanish public-procurement documents a day; tuning the retrieval and pre-filtering tenders raised answer accuracy from 30% to 70%, on a two-engineer team. On the automation side I orchestrate UiPath robots from Apache Airflow DAGs, bringing scheduling, dependency management, retry logic and observability to automations that previously ran as isolated scheduled tasks, and I build automations for government-sector clients that remove around 50 hours of manual processing a month. As a front-end developer I work on a large-scale project for the Canary Islands Government, specifically the Ministry of Agriculture, Livestock, Fisheries and Food Sovereignty, building production applications for data management and open data initiatives in the agricultural and fisheries domains — one of two developers responsible for the front end in a four-developer team, on a rebuild that cut page load times by 40%. I also work as an RPA Developer for Universidad de La Laguna, designing and maintaining UiPath automations for administrative and operational processes. Along the way I introduced Git workflow, shared component libraries and GitHub Actions CI/CD to a team that had previously worked only in low-code RPA tooling.",
                 "technologies": [
-                    "Frontend Development: React, Vite, React Native, Redux Toolkit, RTK Query, Material UI (MUI)",
-                    "Backend & Infrastructure: Java Spring Boot, Docker",
+                    "Python & AI: Python, FastAPI, Haystack, Qdrant, Ollama, retrieval-augmented generation (RAG)",
+                    "Orchestration & Platform: Apache Airflow, Docker, Docker Compose, GitHub Actions CI/CD, Git workflows",
+                    "Frontend: React, Next.js, TypeScript, Vite, React Native, Redux Toolkit, RTK Query, Material UI (MUI)",
+                    "Backend & Data: Java Spring Boot, Node.js, PostgreSQL",
                     "RPA: UiPath"
                 ]
             },
@@ -77,29 +103,29 @@
                 "year": "2023 - 2025",
                 "position": "RPA Developer & Support Lead",
                 "companyName": "MCCM Innovations",
-                "details": "RPA Developer and Support Lead on a large-scale Siemens Gamesa project, developing production-grade automations and leading an international team of four. Responsible for technical support across 36 live business processes."
+                "details": "RPA Developer and Support Lead on a large-scale Siemens Gamesa project. Built automations in UiPath, Automation Anywhere and Power Automate (desktop and cloud flows): SAP and Excel data reconciliation for the logistics department, and email-to-portal routing of turbine incident and missing-part reports into internal and SCADA systems, plus around six further automations in maintenance. Led an international support team of four and cut average ticket resolution from 48 hours to 4 by replacing one-off fixes with a library of reusable components."
             },
             "job3": {
-                "year": "2022 - Present",
-                "position": "Frontend Web Developer",
-                "companyName": "Freelance",
-                "details": "Since I began my training, I have developed projects using the following technologies:",
+                "year": "2022 - 2023",
+                "position": "Self-funded transition into software development",
+                "companyName": "Self-taught",
+                "details": "Twelve months of full-time, self-funded retraining alongside my hospitality job, building projects end to end rather than following tutorials:",
                 "technologies": [
-                    "React.js to develop numerous web applications (a total of 16), including the use of MERN stack and Next.js.",
-                    "JavaScript as my preferred language, and the D3.js library to develop 5 data visualization websites.",
+                    "React.js to build web applications, including the MERN stack and Next.js.",
+                    "JavaScript as my main language, and the D3.js library for data visualisation projects.",
                     "CSS including SASS, SCSS, Bootstrap, Tailwind, Material UI, Styled Components, and Chakra UI to style my websites.",
                     "TypeScript to add static typing to my more robust projects, providing an extra level of correctness.",
                     "Git to store my projects, track versions, and manage changes."
                 ]
             },
             "job4": {
-                "year": "2018 - 2021",
+                "year": "2018 - 2020",
                 "position": "Data Evaluation Specialist",
                 "companyName": "Appen, Freelance",
                 "details": "Creation, evaluation, and correction of data related to maps, products, and online advertisements in order to train various AI systems."
             },
             "job5": {
-                "year": "2017 - 2023",
+                "year": "2016 - 2023",
                 "position": "Hotel Receptionist",
                 "companyName": "Various hotels",
                 "details": ""
@@ -127,10 +153,15 @@
                     {
                         "name": "UiPath Advanced RPA Developer",
                         "platform": "UiPath Academy",
+                        "year": "2024"
+                    },
+                    {
+                        "name": "Automation Anywhere Bot Developer (Automation 360)",
+                        "platform": "Automation Anywhere University",
                         "year": "2023"
                     },
                     {
-                        "name": "Certified ScrumMaster (CSM)",
+                        "name": "Scrum Master",
                         "platform": "Scrum Manager",
                         "year": "2025"
                     },
@@ -209,8 +240,8 @@
                 ]
             },
             "edu2": {
-                "year": "2022",
-                "degree": "First Year of Physics Degree",
+                "year": "2020 - 2022",
+                "degree": "Physics coursework, two years toward B.Sc.",
                 "institute": "U.N.E.D.",
                 "details": "Academic training in computing (C and Maxima), mathematical analysis, algebra, physics fundamentals, electronic circuits, and application of the scientific method."
             },
@@ -224,37 +255,29 @@
         "titlePortfolio1": "My",
         "titlePortfolio2": "portfolio",
         "titlePorfolioTab1": "All",
-        "titlePorfolioTab2": "React",
-        "titlePorfolioTab3": "React Native",
-        "titlePorfolioTab4": "D3.js",
+        "titlePorfolioTab2": "Python & Automation",
+        "titlePorfolioTab3": "Full-Stack",
+        "titlePorfolioTab4": "Client Work",
         "projects": {
             "project1": {
-                "title": "TechLines",
-                "type": "e-commerce"
+                "title": "Relaxzy",
+                "type": "production booking platform · a business I co-own",
+                "notice": "Internal system, not publicly reachable. It holds client records, appointment times and payment data, so the deployment stays unlisted."
             },
             "project2": {
-                "title": "Jobify",
-                "type": "job tracker"
+                "title": "Supplier Invoice Collector",
+                "type": "Python automation · nine providers, one command",
+                "notice": "A local tool in a private repository. Collecting one month of invoices by hand across nine providers took over two hours; it is now a single command."
             },
             "project3": {
-                "title": "Plate Calculator",
-                "type": "android app"
+                "title": "Law Firm Marketing Site",
+                "type": "freelance · the firm's live site",
+                "notice": ""
             },
             "project4": {
-                "title": "Ecomvision",
-                "type": "admin panel"
-            },
-            "project5": {
-                "title": "US Education Map",
-                "type": "cartogram"
-            },
-            "project6": {
-                "title": "Global Temperature Evolution",
-                "type": "heat map"
-            },
-            "project7": {
-                "title": "Top 100 Movies",
-                "type": "area and color chart"
+                "title": "Moisture Control Firm",
+                "type": "freelance · site and invoice templates",
+                "notice": "The templates were delivered to the client and are not published online."
             },
             "modals": {
                 "title1": "Project",
@@ -274,10 +297,10 @@
         "title4": "Don't be shy !",
         "paragraph": "I am currently open to full-time opportunities and would welcome the chance to discuss how my skills and experience can add value to your team or project.",
         "form": {
-            "name": "Your Name",
-            "email": "Your Email",
+            "name": "Name",
+            "email": "Email",
             "subject": "Subject",
-            "message": "Your Message",
+            "message": "Message",
             "send": "Send Message"
         },
         "successMessage": "Your message has been sent successfully!",

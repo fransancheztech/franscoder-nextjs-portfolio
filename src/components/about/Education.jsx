@@ -17,7 +17,7 @@ const Education = () => {
           </h5>
           <p className='open-sans-font'>{details}</p>
           <div className='h-6'></div>
-          <h7 className='poppins-font text-uppercase'>{title1}{title1 && ":"}</h7>
+          <h6 className='poppins-font text-uppercase sublist-heading'>{title1}{title1 && ":"}</h6>
           <div className='h-2'></div>
           <ul className='sublist p-0'>
             {certifications
@@ -33,7 +33,7 @@ const Education = () => {
                 })
               : null}
           </ul>
-          <h7 className='poppins-font text-uppercase'>{title2}{title2 && ":"}</h7>
+          <h6 className='poppins-font text-uppercase sublist-heading'>{title2}{title2 && ":"}</h6>
           <div className='h-2'></div>
           <ul className='sublist p-0'>
             {courses

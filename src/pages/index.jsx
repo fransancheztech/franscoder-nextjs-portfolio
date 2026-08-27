@@ -29,7 +29,7 @@ const HomeDark = () => {
 
   return (
     <Wrapper>
-      <SEO pageTitle={'Portfolio de Fran Sánchez'} />
+      <SEO />
 
       <div className='yellow'>
         <SwitchLng/>

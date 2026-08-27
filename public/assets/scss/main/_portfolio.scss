@@ -58,10 +58,16 @@
     }
     .tab-content {
       width: 100%;
-      height: 229px;
+      // aspect-ratio rather than a fixed 229px: the tile now scales with its
+      // grid column, so proportions hold at 3, 2 and 1 columns instead of the
+      // tile getting squatter as the viewport narrows.
+      aspect-ratio: 16 / 10;
       position: relative;
       cursor: pointer;
       display: flex;
+      overflow: hidden;
+      border-radius: 0.5rem;
+      background: #252525;
 
       img {
         @include img-size;
@@ -69,6 +75,13 @@
         top: 0;
         left: 0;
         border-radius: 0.5rem;
+        // The screenshots range from 0.92 to 2.09 in aspect ratio. Without
+        // object-fit the browser stretches each one to fill the tile exactly.
+        // `cover` preserves the ratio and crops the overflow instead.
+        object-fit: cover;
+        // Anchor to the top: on a UI screenshot the header, nav and title are
+        // the recognisable part, so crop from the bottom, not the middle.
+        object-position: top center;
       }
 
       h3 {

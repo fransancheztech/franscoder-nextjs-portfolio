@@ -50,7 +50,8 @@ const Portfolio = () => {
                       >
                         <Image
                           src={mainImage}
-                          alt='portfolio project demo'
+                          alt={`${modalDetails[0].project} — ${type}`}
+                          sizes='(max-width: 35.9375em) 100vw, (max-width: 62em) 50vw, 33vw'
                         />
                         <h3 className='flex flex-col'>
                           <span className='content-title text-center'>{modalDetails[0].project}</span>
@@ -65,9 +66,7 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className='tab-container'>
-                {PortfolioData.filter(item =>
-                  ['mongodb', 'express', 'react', 'node'].every(i => item.tag.includes(i))
-                ).map(item => {
+                {PortfolioData.filter(item => item.tag.includes('python')).map(item => {
                   const { id, type, mainImage, delayAnimation } = item
                   return (
                     <div
@@ -96,7 +95,7 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className='tab-container'>
-                {PortfolioData.filter(item => item.tag.includes('react-native')).map(item => {
+                {PortfolioData.filter(item => item.tag.includes('fullstack')).map(item => {
                   const { id, type, mainImage, delayAnimation } = item
                   return (
                     <div
@@ -125,7 +124,7 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className='tab-container'>
-                {PortfolioData.filter(item => item.tag.includes('d3')).map(item => {
+                {PortfolioData.filter(item => item.tag.includes('client')).map(item => {
                   const { id, type, mainImage, delayAnimation } = item
                   return (
                     <div

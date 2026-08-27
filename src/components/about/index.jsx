@@ -42,8 +42,8 @@ const index = () => {
               <div className='col-12 justify-center align-center flex mt-2'>
                 <a
                   className='button'
-                  href='/assets/FranciscoSanchez-WebDeveloper-2025.pdf'
-                  download='FranciscoSanchez-WebDeveloper-2025'
+                  href='/assets/Francisco-Sanchez-Python-Platform-Engineer.pdf'
+                  download='Francisco-Sanchez-Python-Platform-Engineer'
                 >
                   <span className='button-text'>{t.about.downloadCV}</span>
                   <span className='button-icon fa fa-download'></span>

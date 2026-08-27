@@ -2110,3 +2110,76 @@ button:focus {
 .light .green {
   color: #2bc42b;
 }
+
+// ---------------------------------------------------------------------------
+// Skills — grouped tags. Replaces the circular percentage dials, which showed
+// self-assessed numbers with no scale behind them.
+// ---------------------------------------------------------------------------
+.skill-group {
+  height: 100%;
+
+  &__title {
+    color: var(--main-primary-color);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    margin-bottom: 14px;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+
+.skill-tag {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 6px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  color: #d5d5d5;
+  transition: border-color 0.25s, color 0.25s;
+
+  &:hover {
+    border-color: var(--main-primary-color);
+    color: #fff;
+  }
+}
+
+body.light {
+  .skill-tag {
+    border-color: rgba(0, 0, 0, 0.14);
+    background: rgba(0, 0, 0, 0.03);
+    color: #3b3a3a;
+
+    &:hover {
+      border-color: var(--main-primary-color);
+      color: #111;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Education sub-headings ("Certifications:", "Courses:").
+//
+// These were <h7> — not a real element. HTML defines h1–h6 only, so browsers
+// treated it as an unknown INLINE element: no heading semantics for screen
+// readers, and no default styling at all. Switching to <h6> fixes the
+// semantics but brings browser defaults with it (0.67em, bold, block margins),
+// which would shrink the text. This restores the original look on a valid tag.
+// ---------------------------------------------------------------------------
+.sublist-heading {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin: 0;
+  color: inherit;
+}

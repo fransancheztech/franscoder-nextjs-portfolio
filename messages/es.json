@@ -1,4 +1,10 @@
 {
+    "seo": {
+        "title": "Fran Sánchez — Desarrollador Python",
+        "description": "Desarrollador Python que construye y opera sistemas en producción: pipelines de recuperación de información, orquestación y los servicios que los rodean. En Sevilla, trabajando en remoto con equipos europeos.",
+        "ogTitle": "Fran Sánchez — Desarrollador Python, IA y Plataforma",
+        "ogDescription": "Pipelines RAG en producción, orquestación con Apache Airflow y desarrollo full-stack en TypeScript. Proyectos, experiencia y contacto."
+    },
     "tabs": {
         "home": "Inicio",
         "about": "Conóceme",
@@ -7,10 +13,10 @@
     },
     "hero": {
         "greeting": "Hola, soy Fran Sánchez",
-        "position": "Desarrollador Frontend (React / Next.js)",
-        "paragraph1": "Diseño y desarrollo aplicaciones web escalables con React, con especial foco en el rendimiento, la usabilidad y arquitecturas mantenibles utilizadas en entornos de producción.",
+        "position": "Desarrollador Python · IA, Plataforma y Full-Stack",
+        "paragraph1": "Construyo y opero sistemas en producción con Python: pipelines de recuperación de información, orquestación y los servicios que los rodean. También desarrollo las interfaces que van encima, con React y TypeScript.",
         "paragraph2": "Me apasiona convertir problemas reales en soluciones prácticas y bien diseñadas.",
-        "paragraph3": "Frontend y Full-Stack"
+        "paragraph3": "Python · IA · Full-Stack · Automatización"
     },
     "about": {
         "title1": "Sobre",
@@ -25,13 +31,9 @@
                 "title": "Apellidos",
                 "value": "Sánchez Cañas"
             },
-            "age": {
-                "title": "Edad",
-                "value": "33 años"
-            },
             "job": {
                 "title": "Empleo",
-                "value": "Desarrollador Frontend (React / Next.js)"
+                "value": "Desarrollador Python · IA, Plataforma y Full-Stack"
             },
             "phone": {
                 "title": "Teléfono",
@@ -39,11 +41,7 @@
             },
             "languages": {
                 "title": "Idiomas",
-                "value": "Español, Inglés, Alemán"
-            },
-            "nationality": {
-                "title": "Nacionalidad",
-                "value": "Español"
+                "value": "Español (nativo), Inglés (profesional), Alemán (básico)"
             },
             "location": {
                 "title": "Ubicación",
@@ -55,21 +53,49 @@
             }
         },
         "downloadCV": "Descargar CV",
-        "endedProjects1": "40",
-        "endedProjects2": "Proyectos",
-        "endedProjects3": "Completados",
+        "endedProjects1": "70.000",
+        "endedProjects2": "Documentos indexados",
+        "endedProjects3": "al día",
         "title4": "Mi arsenal",
+        "skills": [
+            {
+                "group": "Python e IA",
+                "items": ["Python", "FastAPI", "Haystack", "Qdrant", "Ollama", "RAG"]
+            },
+            {
+                "group": "Orquestación y Plataforma",
+                "items": ["Apache Airflow", "Docker", "Docker Compose", "CI/CD con GitHub Actions", "Git"]
+            },
+            {
+                "group": "Frontend",
+                "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "MUI", "Redux Toolkit", "RTK Query"]
+            },
+            {
+                "group": "Backend y Datos",
+                "items": ["Node.js", "Express", "PostgreSQL", "MongoDB", "Supabase"]
+            },
+            {
+                "group": "Automatización",
+                "items": ["UiPath", "Automation Anywhere", "Power Automate", "Playwright"]
+            },
+            {
+                "group": "Prácticas y Testing",
+                "items": ["Agile / Scrum", "Jest", "Cypress"]
+            }
+        ],
         "title5": "Experiencia",
         "title6": "Educación",
         "experience": {
             "job1": {
                 "year": "2025 - Actualidad",
-                "position": "Frontend Developer / RPA Developer",
+                "position": "Full-Stack Developer & RPA Engineer",
                 "companyName": "Nartex",
-                "details": "Puesto de doble responsabilidad que combina desarrollo frontend y automatización de procesos mediante RPA. Como Frontend Developer, trabajo en un proyecto de gran escala para el Gobierno de Canarias, concretamente para la Consejería de Agricultura, Ganadería, Pesca y Soberanía Alimentaria, contribuyendo al desarrollo de aplicaciones modernas, escalables y orientadas a producción, centradas en la gestión y apertura de datos en los ámbitos agrícola y pesquero. De forma paralela, desempeño el rol de RPA Developer para la Universidad de La Laguna, diseñando y manteniendo automatizaciones en UiPath para optimizar procesos administrativos y operativos.",
+                "details": "Un puesto que abarca ingeniería de plataforma y Python, desarrollo full-stack y automatización. Construyo y opero un pipeline de generación aumentada por recuperación (RAG) que ingesta e indexa unos 70.000 documentos de contratación pública española al día; ajustar la recuperación y prefiltrar las licitaciones elevó la precisión de las respuestas del 30% al 70%, en un equipo de dos ingenieros. En la parte de automatización, orquesto robots UiPath desde DAGs de Apache Airflow, aportando planificación, gestión de dependencias, reintentos y observabilidad a automatizaciones que antes se ejecutaban como tareas programadas aisladas, y desarrollo automatizaciones para clientes del sector público que eliminan unas 50 horas de trabajo manual al mes. Como desarrollador frontend trabajo en un proyecto de gran escala para el Gobierno de Canarias, concretamente para la Consejería de Agricultura, Ganadería, Pesca y Soberanía Alimentaria, construyendo aplicaciones en producción centradas en la gestión y apertura de datos en los ámbitos agrícola y pesquero, como uno de los dos desarrolladores responsables del frontend dentro de un equipo de cuatro, en una reconstrucción que redujo los tiempos de carga un 40%. También ejerzo como RPA Developer para la Universidad de La Laguna, diseñando y manteniendo automatizaciones en UiPath para procesos administrativos y operativos. Por el camino introduje flujo de trabajo con Git, librerías de componentes compartidas y CI/CD con GitHub Actions en un equipo que hasta entonces solo había trabajado con herramientas RPA low-code.",
                 "technologies": [
-                    "Desarrollo Frontend: React, Vite, React Native, Redux Toolkit, RTK Query, Material UI (MUI)",
-                    "Backend e Infraestructura: Java Spring Boot, Docker",
+                    "Python e IA: Python, FastAPI, Haystack, Qdrant, Ollama, generación aumentada por recuperación (RAG)",
+                    "Orquestación y Plataforma: Apache Airflow, Docker, Docker Compose, CI/CD con GitHub Actions, flujos de trabajo con Git",
+                    "Frontend: React, Next.js, TypeScript, Vite, React Native, Redux Toolkit, RTK Query, Material UI (MUI)",
+                    "Backend y Datos: Java Spring Boot, Node.js, PostgreSQL",
                     "RPA: UiPath"
                 ]
             },
@@ -77,29 +103,29 @@
                 "year": "2023 - 2025",
                 "position": "RPA Developer & Support Lead",
                 "companyName": "MCCM Innovations",
-                "details": "RPA Developer y Support Lead en un proyecto de gran escala para Siemens Gamesa, desarrollando automatizaciones en entornos productivos y liderando un equipo internacional de cuatro personas. Responsable del soporte técnico de 36 procesos de negocio en producción."
+                "details": "RPA Developer y Support Lead en un proyecto de gran escala para Siemens Gamesa. Desarrollé automatizaciones en UiPath, Automation Anywhere y Power Automate (flujos de escritorio y en la nube): cruce y conciliación de datos entre SAP y Excel para el departamento de logística, y enrutado desde correo electrónico hacia portales internos y SCADA de partes de incidencia de aerogeneradores y de piezas faltantes, además de otras seis automatizaciones en mantenimiento. Lideré un equipo internacional de soporte de cuatro personas y reduje el tiempo medio de resolución de incidencias de 48 horas a 4, sustituyendo arreglos puntuales por una librería de componentes reutilizables."
             },
             "job3": {
-                "year": "2022 - Actualidad",
-                "position": "Desarrollador Web Frontend",
-                "companyName": "Autónomo",
-                "details": "Desde que comencé a formarme, he desarrollado proyectos con las siguientes tecnologías:",
+                "year": "2022 - 2023",
+                "position": "Transición autofinanciada al desarrollo de software",
+                "companyName": "Autodidacta",
+                "details": "Doce meses de reciclaje profesional a tiempo completo, financiado por mí mismo y compaginado con mi trabajo en hostelería, construyendo proyectos de principio a fin en lugar de seguir tutoriales:",
                 "technologies": [
-                    "React.js para desarrollar numerosas aplicaciones web (total de 16), incluyendo el uso de las tecnologías MERN y Next.js.",
-                    "JavaScript como lenguaje favorito, y con la biblioteca D3.js para desarrollar 5 webs de visualización de datos.",
+                    "React.js para construir aplicaciones web, incluyendo las tecnologías MERN y Next.js.",
+                    "JavaScript como lenguaje principal, y la biblioteca D3.js para proyectos de visualización de datos.",
                     "CSS incluyendo SASS, SCSS, Bootstrap, Tailwind, MaterialUI, Styled-componentes y ChakraUI para estilizar mis webs.",
                     "TypeScript para añadir tipos estáticos en mis proyectos más robustos y otorgar así un grado de corrección extra.",
                     "Git para almacenar mis proyectos, hacer seguimiento de las versiones y de los cambios de estos."
                 ]
             },
             "job4": {
-                "year": "2018 - 2021",
+                "year": "2018 - 2020",
                 "position": "Especialista en evaluación de datos",
                 "companyName": "Appen, Autónomo",
                 "details": "Creación, evaluación y corrección de datos relativos a mapas,productos y anuncios online con el fin de entrenar varios sistemas de IA."
             },
             "job5": {
-                "year": "2017 - 2023",
+                "year": "2016 - 2023",
                 "position": "Recepcionista de hotel",
                 "companyName": "Diferentes hoteles",
                 "details": ""
@@ -127,10 +153,15 @@
                     {
                         "name": "UiPath Advanced RPA Developer",
                         "platform": "UiPath Academy",
+                        "year": "2024"
+                    },
+                    {
+                        "name": "Automation Anywhere Bot Developer (Automation 360)",
+                        "platform": "Automation Anywhere University",
                         "year": "2023"
                     },
                     {
-                        "name": "Certified ScrumMaster (CSM)",
+                        "name": "Scrum Master",
                         "platform": "Scrum Manager",
                         "year": "2025"
                     },
@@ -209,8 +240,8 @@
                 ]
             },
             "edu2": {
-                "year": "2022",
-                "degree": "Primer año del Grado en Física",
+                "year": "2020 - 2022",
+                "degree": "Dos años del Grado en Física",
                 "institute": "U.N.E.D.",
                 "details": "Formación en computación (C y Maxima), análisis matemático, álgebra, fundamentos de la física, circuitos electrónicos y aplicación del método científico."
             },
@@ -224,37 +255,29 @@
         "titlePortfolio1": "Mi",
         "titlePortfolio2": "portfolio",
         "titlePorfolioTab1": "Todo",
-        "titlePorfolioTab2": "React",
-        "titlePorfolioTab3": "React Native",
-        "titlePorfolioTab4": "D3.js",
+        "titlePorfolioTab2": "Python y Automatización",
+        "titlePorfolioTab3": "Full-Stack",
+        "titlePorfolioTab4": "Trabajo para clientes",
         "projects": {
             "project1": {
-                "title": "TechLines",
-                "type": "e-commerce"
+                "title": "Relaxzy",
+                "type": "plataforma de reservas en producción · un negocio del que soy copropietario",
+                "notice": "Sistema interno, sin acceso público. Contiene fichas de clientes, horarios de citas y datos de pagos, por lo que el despliegue permanece sin publicar."
             },
             "project2": {
-                "title": "Jobify",
-                "type": "gestor de empleos"
+                "title": "Recolector de facturas de proveedores",
+                "type": "automatización en Python · nueve proveedores, un solo comando",
+                "notice": "Herramienta local en un repositorio privado. Reunir las facturas de un mes a mano entre nueve proveedores llevaba más de dos horas; ahora es un solo comando."
             },
             "project3": {
-                "title": "Calculadora de discos",
-                "type": "app android"
+                "title": "Web de bufete de abogados",
+                "type": "freelance · la web oficial del bufete",
+                "notice": ""
             },
             "project4": {
-                "title": "Ecomvision",
-                "type": "panel de administración"
-            },
-            "project5": {
-                "title": "Mapa de educación en los EE.UU.",
-                "type": "cartograma"
-            },
-            "project6": {
-                "title": "Evolución de la temperatura global",
-                "type": "mapa de calor"
-            },
-            "project7": {
-                "title": "Top 100 Películas",
-                "type": "gráfica de áreas y colores"
+                "title": "Empresa de control de humedades",
+                "type": "freelance · web y plantillas de facturación",
+                "notice": "Las plantillas se entregaron al cliente y no están publicadas online."
             },
             "modals": {
                 "title1": "Proyecto",
@@ -274,10 +297,10 @@
         "title4": "No seas tímido!",
         "paragraph": "Actualmente estoy abierto a oportunidades a tiempo completo y me encantaría conversar sobre cómo mis habilidades y experiencia pueden aportar valor a su equipo o proyecto.",
         "form": {
-            "name": "Tu nombre",
-            "email": "Tu Email",
+            "name": "Nombre",
+            "email": "Email",
             "subject": "Asunto",
-            "message": "Tu Mensaje",
+            "message": "Mensaje",
             "send": "Enviar Mensaje"
         },
         "successMessage": "Mensaje enviado correctamente!",

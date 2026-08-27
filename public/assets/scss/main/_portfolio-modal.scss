@@ -96,6 +96,15 @@ $mbl-small: 23.75em; //380px / 16px = 23.75em
             @include img-size;
             border-radius: 0.5rem;
         }
+
+        // `contain` here, not `cover`. The grid wants uniform tiles, so
+        // cropping is the right trade there. The modal is where someone has
+        // chosen to look at the thing properly, so nothing should be cut off.
+        // The dark background above turns the letterboxing into a frame.
+        img {
+            object-fit: contain;
+            object-position: center;
+        }
     }
     .slick-slider {
         .slick-arrow {
