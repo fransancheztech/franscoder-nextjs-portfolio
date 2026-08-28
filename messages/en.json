@@ -60,27 +60,63 @@
         "skills": [
             {
                 "group": "Python & AI",
-                "items": ["Python", "FastAPI", "Haystack", "Qdrant", "Ollama", "RAG"]
+                "items": [
+                    "Python",
+                    "FastAPI",
+                    "Haystack",
+                    "Qdrant",
+                    "Ollama",
+                    "RAG"
+                ]
             },
             {
                 "group": "Orchestration & Platform",
-                "items": ["Apache Airflow", "Docker", "Docker Compose", "GitHub Actions CI/CD", "Git"]
+                "items": [
+                    "Apache Airflow",
+                    "Docker",
+                    "Docker Compose",
+                    "GitHub Actions CI/CD",
+                    "Git"
+                ]
             },
             {
                 "group": "Frontend",
-                "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "MUI", "Redux Toolkit", "RTK Query"]
+                "items": [
+                    "React",
+                    "Next.js",
+                    "TypeScript",
+                    "Tailwind CSS",
+                    "MUI",
+                    "Redux Toolkit",
+                    "RTK Query"
+                ]
             },
             {
                 "group": "Backend & Data",
-                "items": ["Node.js", "Express", "PostgreSQL", "MongoDB", "Supabase"]
+                "items": [
+                    "Node.js",
+                    "Express",
+                    "PostgreSQL",
+                    "MongoDB",
+                    "Supabase"
+                ]
             },
             {
                 "group": "Automation",
-                "items": ["UiPath", "Automation Anywhere", "Power Automate", "Playwright"]
+                "items": [
+                    "UiPath",
+                    "Automation Anywhere",
+                    "Power Automate",
+                    "Playwright"
+                ]
             },
             {
                 "group": "Practices & Testing",
-                "items": ["Agile / Scrum", "Jest", "Cypress"]
+                "items": [
+                    "Agile / Scrum",
+                    "Jest",
+                    "Cypress"
+                ]
             }
         ],
         "title5": "Experience",
